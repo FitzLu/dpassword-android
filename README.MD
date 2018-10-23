@@ -14,6 +14,7 @@ So Dpassword is safer, more reliable, and it will be your assistant to manage yo
 
 ## Author
 - [Lihao](https://github.com/sbwdlihao)
+- Lu
 - [Fitz](https://github.com/FitzLu)
 
 
