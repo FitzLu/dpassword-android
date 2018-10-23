@@ -13,8 +13,8 @@ So Dpassword is safer, more reliable, and it will be your assistant to manage yo
 
 
 ## Author
-Lihao (email: sbwdlihao@gmail.com)
-Fitz (email: Fitz.lu@outlook.com)
+- [Lihao](https://github.com/sbwdlihao)
+- [Fitz](https://github.com/FitzLu)
 
 
 ## License
