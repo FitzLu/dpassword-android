@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_toolbar_height">45dp</dimen>
+    <dimen name="default_toolbar_title_size">17sp</dimen>
+    <dimen name="default_toolbar_right_text_size">14sp</dimen>
+    <dimen name="default_toolbar_progress_width">19dp</dimen>
+
+    <dimen name="default_edge_margin">16dp</dimen>
+    <dimen name="default_edge_margin_large">23dp</dimen>
+
+    <dimen name="default_text_size">14sp</dimen>
+    <dimen name="default_button_height">40dp</dimen>
+    <dimen name="default_button_height_large">50dp</dimen>
+
+    <dimen name="default_input_height">45dp</dimen>
+
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_21">21sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="default_card_elevation">4dp</dimen>
+    <dimen name="toolbar_elevation">0dp</dimen>
+
+    <dimen name="default_elevation">0dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
+    <dimen name="edge_margin_23">23dp</dimen>
+    <dimen name="button_height_large">54dp</dimen>
+
+    <!--pin view-->
+    <dimen name="pv_pin_view_cursor_width">2dp</dimen>
+    <dimen name="pv_pin_view_item_line_width">2dp</dimen>
+    <dimen name="pv_pin_view_item_radius">5dp</dimen>
+    <dimen name="pv_pin_view_item_size">44dp</dimen>
+    <dimen name="pv_pin_view_item_spacing">5dp</dimen>
+    <dimen name="text_size_48">48sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/parentView"
+    android:background="@color/secondaryBackgroundColor">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_toolbar_height"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/ivX"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_x"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/generate_password"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/text_size_17"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/default_edge_margin"
+            android:layout_marginEnd="@dimen/default_edge_margin">
+
+            <TextView
+                android:id="@+id/tvPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_15"
+                android:textColor="@color/primaryTextColor"
+                android:ellipsize="end"
+                android:textIsSelectable="true"/>
+
+            <ImageView
+                android:id="@+id/ivRefresh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_refresh"
+                android:scaleType="centerInside"
+                android:padding="13dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="@dimen/default_edge_margin"
+            android:layout_marginEnd="@dimen/default_edge_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_15"
+                android:textColor="@color/primaryTextColor"
+                android:text="@string/length"/>
+
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/lengthSeek"
+                style="@android:style/Widget.Material.SeekBar"
+                android:indeterminateOnly="false"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp" />
+
+            <TextView
+                android:id="@+id/tvLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textSize="@dimen/text_size_15"
+                android:textColor="@color/primaryTextColor" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvCopy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@color/white"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="@string/copy_password"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_15" />
+
+</LinearLayout>

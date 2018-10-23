@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/default_toolbar_height"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/tvGoBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:text="@string/go_back"
+            android:textColor="@color/toolbar_action_text_color"
+            android:textSize="@dimen/text_size_15"
+            android:layout_alignParentStart="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:text="@string/entry_detail"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/text_size_15"
+            android:layout_centerInParent="true"/>
+
+        <TextView
+            android:id="@+id/tvDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:text="@string/delete"
+            android:textColor="@color/errorColor"
+            android:textSize="@dimen/text_size_15"
+            android:layout_alignParentEnd="true"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+        
+        <TextView
+            android:id="@+id/tvLogo"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:textColor="@color/logoTextColor"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_18"
+            android:background="@drawable/gray_circle"/>
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/text_size_15"
+            android:textColor="@color/primaryTextColor"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingTop="0dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/url"
+            android:textColor="@color/label_color"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:textSize="@dimen/text_size_12"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/edtUrl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_input_height"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/text_size_15"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorNormal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/username"
+            android:textColor="@color/label_color"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:textSize="@dimen/text_size_12"
+            android:layout_marginTop="2dp"/>
+
+        <TextView
+            android:id="@+id/edtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_input_height"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="@dimen/text_size_15"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorNormal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/password"
+            android:textColor="@color/label_color"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            android:textSize="@dimen/text_size_12"
+            android:layout_marginTop="2dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/edtPassword"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/default_input_height"
+                android:layout_weight="1"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/text_size_15"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textIsSelectable="true"/>
+
+            <ImageView
+                android:id="@+id/ivEye"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_eye_close"
+                android:scaleType="centerInside"
+                android:contentDescription="@null"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorNormal"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/secondaryTextColor"
+        android:padding="10dp"
+        android:text="@string/edit"/>
+
+    <TextView
+        android:id="@+id/tvCopy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:padding="10dp"
+        android:text="@string/copy_password"/>
+
+</LinearLayout>

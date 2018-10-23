@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_password"
+        android:title="@string/entrys_library"
+        android:icon="@drawable/tab_entry" />
+    <item android:id="@+id/action_account"
+        android:title="@string/me"
+        android:icon="@drawable/tab_account" />
+</menu>

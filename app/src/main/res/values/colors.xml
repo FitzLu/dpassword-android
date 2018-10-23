@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01C75E</color>
+    <color name="colorPrimaryDark">#01C75E</color>
+    <color name="colorAccent">#01C75E</color>
+    <color name="colorNormal">#F3F3F3</color>
+
+    <color name="primaryTextColor">#3F4341</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="thirdTextColor">#ABABAB</color>
+    <color name="primaryBackgroundColor">#ffffff</color>
+    <color name="secondaryBackgroundColor">#F3F3F3</color>
+
+    <color name="primaryGray">#6A6A6A</color>
+
+    <color name="disableGray">#BABBBA</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="toolbarBackgroundColor">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="border">#F0F0F0</color>
+    <color name="warningYellow">#EAFF2B</color>
+
+    <color name="divider">#F6F6F6</color>
+    <color name="pin_view_border_fill">#F2F6F4</color>
+    <color name="toolbar_action_text_color">#ff8f9692</color>
+    <color name="label_color">#A1A2A2</color>
+
+    <color name="errorColor">#F44336</color>
+
+    <color name="logoTextColor">#CED3D0</color>
+    <color name="nav_tip_color">#ff5a5a5a</color>
+
+</resources>
