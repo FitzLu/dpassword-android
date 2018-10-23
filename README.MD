@@ -12,6 +12,10 @@ So Dpassword is safer, more reliable, and it will be your assistant to manage yo
 [Google play](https://play.google.com/store/apps/details?&id=com.dpass.android)
 
 
+## Author
+Lihao (email: sbwdlihao@gmail.com)
+Fitz (email: Fitz.lu@outlook.com)
+
 
 ## License
 ~~~
